@@ -9,12 +9,12 @@ public class HomeController {
     public String index(){
     return "index";
 }
-@RequestMapping("/2")
-    public String page2(){
-return "page2";
+@RequestMapping("/about")
+    public String about(){
+return "about";
     }
 
-@RequestMapping("/3")
-public String page3(){
-    return "page3";
+@RequestMapping("/contactus")
+public String contactus(){
+    return "contact us";
 }}
